@@ -1,0 +1,24 @@
+{
+  "name": "myfoncia",
+  "version": "1.0.0",
+  "description": "Foncia IT test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "backend": "nodemon app.js",
+    "demo": "node demo_mongodb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mpongo Anganda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "ejs": "2.6.1",
+    "express": "4.16.4",
+    "mongo": "0.1.0",
+    "mongoose": "5.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.10"
+  }
+}
